@@ -1,6 +1,6 @@
 #!/bin/python
 #
-# Crypto Clipboard Saver v0.2.0
+# Crypto Clipboard Saver v0.2.1
 # Keep your BitCoin wallet safe from those pesky ScR1p7 K1dd13$
 #
 # Simple script that checks your clipboard either automatically
