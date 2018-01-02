@@ -16,7 +16,7 @@
 from modules.pyperclip import paste
 from time import sleep
 
-
+# Get amount of time from user
 def timed_notify():
     time = input('Enter the amount of time in seconds before the clipboard is checked: ')
     if len(time) == 0:
@@ -40,6 +40,7 @@ def check_clipboard(seconds):
         print('Current clipboard: %s' % new_clipboard)
         check_clipboard(seconds)
 
+# Automatically check clipboard every 0.1 seconds
 def auto_notify():
     prev_clipboard = paste()
     sleep(0.1)
@@ -52,6 +53,7 @@ def auto_notify():
         print('Current clipboard: %s' % new_clipboard)
         auto_notify()
 
+# Let user decide what mode to use
 print('Keep your clipboard safe during BitCoin transactions.')
 print('0 - Automatically notify me if my clipboard changes')
 print('1 - Let me choose how long before checking the clipboard')
