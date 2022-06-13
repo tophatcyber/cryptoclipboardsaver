@@ -6,7 +6,7 @@
 # Simple script that checks your clipboard either automatically
 # or every so many seconds that you choose.
 #
-# Written by: Brad Nelson
+# Written by: Squ1rr3l
 # @redsquirrel_7
 #
 # Written for: Top Hat Cyber
